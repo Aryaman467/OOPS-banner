@@ -1,14 +1,21 @@
 /**
  * OOPSBannerApp
- * UC1: Print literal text "OOPS" to console
+ * UC2: Display "OOPS" in Banner Format using '*' and spaces
  *
  * @author Aryaman
- * @version 1.0
+ * @version 2.0
  */
 
 public class OOPSBannerApp {
 
     public static void main(String[] args) {
-        System.out.println("OOPS");
+
+        System.out.println(" *****   *****   *****   ***** ");
+        System.out.println("*     * *     * *     * *     *");
+        System.out.println("*     * *     * *     * *     *");
+        System.out.println("*     * *     * *****   *****  ");
+        System.out.println("*     * *     * *           *  ");
+        System.out.println("*     * *     * *           *  ");
+        System.out.println(" *****   *****   *           *  ");
     }
 }
